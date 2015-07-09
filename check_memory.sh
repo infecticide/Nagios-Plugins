@@ -10,5 +10,5 @@ cached=`echo $output | awk '{print $7}'`
 
 mb="MB"
 
-echo "Free: $free$mb, Used: $used$mb, Shared: $shared$mb, Buffers: $buffers$mb,$
+echo "Free: $free$mb, Used: $used$mb, Shared: $shared$mb, Buffers: $buffers$mb, Cached: $cached$mb|total=$total$mb;;;0;$total,used=$used$mb;;;0;$total,free=$free$mb;;;0;$total,shared=$shared$mb;;;0;$total,buffers=$buffers$mb;;;0;$total,cached=$cached$mb;;;0;$total"
 exit 0
